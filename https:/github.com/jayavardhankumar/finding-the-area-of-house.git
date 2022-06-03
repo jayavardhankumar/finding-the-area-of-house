@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main() {
+    float l,b,area;
+    printf("ENTER THE LENGHT OF THE HOUSE");
+    scanf("%f",&l);
+    printf("ENTER THE BREADTH OF THE HOUSE");
+    scanf("%f",&b);
+    area=l*b;
+    printf("THE AREA OF THE HOUSE IS :%f",area);
+    return 0;
+}
